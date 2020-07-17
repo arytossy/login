@@ -1,0 +1,131 @@
+body {
+    margin: 0;
+}
+
+/*=====header===========================*/
+header {
+    position: relative;
+    box-shadow: 0 3px 3px lightgray;
+    text-align: center;
+}
+
+header ul {
+    position: absolute;
+    right: 10px;
+    bottom: 5px;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+header ul li {
+    display: inline-block;
+    padding: 0 5px;
+}
+
+header img {
+    height: 40px;
+}
+
+/*=====main=============================*/
+/*-----common---------------------------*/
+.container {
+    margin: 20px auto;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 5px #ddd;
+    border: 3px solid #eee;
+    border-radius: 10px;
+    padding: 30px 20px;
+}
+
+.container h3 {
+    margin-top: 0;
+    border-bottom: 3px solid mediumseagreen;
+    text-align: center;
+}
+
+.centering {
+    text-align: center;
+}
+
+form .item {
+    padding: 10px 0;
+}
+
+.button {
+    border: 0;
+    border-bottom: 5px solid darkgreen;
+    border-radius: 5px;
+    padding: 7px 30px;
+    background-color: mediumseagreen;
+    color: white;
+}
+
+.button.gray {
+    border-bottom-color: gray;
+    background-color: lightgray;
+}
+
+.textbox, textarea {
+    border: 1px solid #ccc;
+    border-radius: 1px;
+    padding: 5px;
+}
+
+.checkbox {
+    /*box-shadow: 0 0 5px gray inset;*/
+}
+
+/*-----register.php----------------------*/
+form.register {
+    padding: 0 10px;
+}
+
+.required {
+    display: inline-block;
+    margin: 3px;
+    border-radius: 3px;
+    padding: 0 3px;
+    background-color: mediumseagreen;
+    color: white;
+    font-size: 12px;
+}
+
+/*-----register_confirm.php--------------*/
+form.return, form.go {
+    display: inline-block;
+}
+
+/*-----mypage.php------------------------*/
+.profile {
+    display: inline-block;
+}
+
+img.profile {
+    margin: 0 20px;
+    border: 1px solid black;
+    padding: 5px;
+    height: 100px;
+}
+
+/*-----login_error.php-------------------*/
+.error_message {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: pink;
+    color: red;
+}
+
+/*=====footer============================*/
+footer {
+    box-shadow: 0 -3px 3px lightgray;
+    padding: 10px 0;
+    text-align: center;
+    color: gray;
+}
+
+footer._bottom {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
